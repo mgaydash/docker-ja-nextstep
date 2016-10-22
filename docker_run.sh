@@ -11,6 +11,7 @@ docker run \
 	-e AWS_REGION \
 	--name ja-nextstep \
 	-p 80:80 \
+	-p 8080:8080 \
 	--volumes-from bundle_box \
 	ja-nextstep:latest bash \
 		./startup.sh
