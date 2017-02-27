@@ -18,5 +18,5 @@ docker run \
 	--name ja-nextstep \
 	-p 80:80 \
 	-p 8080:8080 \
-	ja-nextstep:1.0.0 bash \
+	ja-nextstep:1.1.0 bash \
 		./startup.sh
