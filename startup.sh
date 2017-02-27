@@ -1,5 +1,5 @@
 git clone https://github.com/dmashuda/ja-next-step.git \
-if [[ -n "$GIT_BRANCH" ]]; then
+if [ -n "$GIT_BRANCH" ]; then
   git checkout $GIT_BRANCH
 fi
 && mv ./ja-next-step/* . \
