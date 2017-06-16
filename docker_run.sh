@@ -3,6 +3,7 @@
 
 docker run \
 	-d \
+	-e GIT_BRANCH \
 	-e SECRET_KEY_BASE \
 	-e PAPERCLIP_BUCKET_NAME \
 	-e PAPERCLIP_ACCESS_KEY_ID \
